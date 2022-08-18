@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    /* background: #4674; */
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background:
+    linear-gradient(
+        #000000c7,#000000a1
+    ),
+    url('../img/Continencia-ao-Amor-Divulgacao-Netflix-1.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.soudAudio{
+    top: 0;
+    position: absolute;
+    
+}
+
+#container{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    max-width: 1145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caixa{
+    text-align: center;
+}
+#text{
+    font-size: 3rem;
+    color: white;
+}
+
+#text::after {
+    content: "|";
+    margin-left: 5px;
+    animation: cursorPointer 0.7s infinite;
+  }
+  
+  @keyframes cursorPointer {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
